@@ -1,0 +1,11 @@
+# Ignore the evidence folder
+evidence/
+
+# Ignore the .idea folder and its contents
+.idea
+.idea/
+.idea/*
+.idea/**
+
+# Ignore the node_modules folder
+node_modules
