@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmita's Page</title>
+    <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body class="font-sans">
+<header class="bg-orange-400 h-24 flex flex-col items-start relative lg:h-56 md:h-28 xl:h-64 sm:h-20">
+
+    <div class="font-serif text-3xl ml-5 mt-4  hover:animate-bounce sm:mt-3 lg:mb-4 lg:mt-10 lg:ml-5 lg:text-4xl xl:mb-8 xl:ml-8 xl:text-7xl md:mb-3 md:ml-4 md:text-4xl sm:mb-2 sm:ml-3 sm:text-2xl">
+        name...
+    </div>
+
+    <div class="hidden sm:hidden sm:mb-5 w-full h-1.5 mt-16 my-4 sm:mt-3 sm:h-1 lg:mt-14 lg:h-1.5"></div>
+
+    <div id="toggleButton" class="flex ml-auto mr-2 mt-2 sm:hidden lg:hidden bg-orange-400 text-white">
+        <button class="focus:outline-none mr-10">
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+        </button>
+    </div>
+
+    <ul id="desktopMenuItems" class="hidden sm:flex sm:text-xl font-bold sm:space-x-4 sm:mr-10 md:space-x-8 md:items-end md:mb-6 md:text-xl lg:text-2xl lg:flex space-x-10 flex-grow w-full justify-end">
+        <li><a href="index.html" class="hover:text-white">Home</a></li>
+        <li><a href="about.html" class="hover:text-white">About Me</a></li>
+        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        <li><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
+        <li><a href="resume.html" class="hover:text-white">Resume</a></li>
+    </ul>
+
+
+    <ul id="mobileMenuItems" class="hidden bg-gray-100 sm:hidden md:hidden lg:hidden xl:hidden absolute top-0 right-8 mt-16 mr-5">
+        <li><a href="index.html" class="hover:text-white">Home</a></li>
+        <li><a href="about.html" class="hover:text-white">About Me</a></li>
+        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        <li><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
+        <li><a href="resume.html" class="hover:text-white">Resume</a></li>
+    </ul>
+    <script src="./assets/js/script.js"></script>
+</header>
+
+<main class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
+    <div class="flex justify-center items-center h-full sm:m-0 sm:p-0">
+        <img src="./assets/img/javascript.webp" class="mx-auto">
+    </div>
+
+    <div class="text-left font-serif mx-3">
+        <p class="font-bold text-3xl mt-8 xl:mt-0 xl:mb-6 xl:px-4 md:text-4xl md:mt-8 sm:text-3xl sm:mt-4">Asmita | IT Programmer</p>
+        <ul class="text-lg list-disc list-inside mt-4 xl:text-xl xl:p-5 xl:px-8 md:text-base md:mt-5 sm:text-base sm:mt-3">
+            <li class="mb-4">🚀 Dedicated IT Programmer with a passion for innovation and creative problem-solving.</li>
+            <li class="mb-4">👩‍💻 Actively seeking opportunities to contribute and make a meaningful impact in the tech community.</li>
+            <li class="mb-4">🛠 Skills:</li>
+            <ul class="list-disc list-inside ml-6">
+                <li>Web Development: Proficient in HTML, CSS, and JavaScript.</li>
+                <li>Server-Side Development: Experienced in Node.js for robust server-side applications.</li>
+                <li>Frontend Frameworks: Familiar with popular frameworks like React.js.</li>
+                <li>UI Design: Skilled in crafting responsive and visually appealing interfaces using Tailwind CSS.</li>
+                <li>Version Control: Proficient in Git for efficient collaboration and code management.</li>
+            </ul>
+            <li class="mb-4">🌐 Portfolio: https://github.com/bhandareasmita/portfolio</li><li class="mb-4">📚 Education:</li>
+            <ul class="list-disc list-inside ml-6">
+                <li>Cert-IV in IT Programming - 2023</li>
+            </ul>
+            <li>📧 Contact: bhandareasmita@gmail.com</li>
+        </ul>
+    </div>
+</main>
+
+<Footer class="bg-slate-600 xl:h-96 lg:h-80" >
+    <div class="container mx-auto text-center">
+        <div class="text-xl font-bold">
+            Asmita Bhandare
+        </div>
+
+        <div class="mt-2 hidden sm:block">
+            &copy; 2023 https://github.com/bhandareasmita/portfolio
+        </div>
+    </div>
+</Footer>
+</body>
+
+</html>
