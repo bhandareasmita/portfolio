@@ -42,31 +42,24 @@
     <script src="./assets/js/script.js"></script>
 </header>
 
-<main class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
-    <div class="flex justify-center items-center h-full sm:m-0 sm:p-0">
-        <img src="./assets/img/javascript.webp" class="mx-auto">
+<main class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start p-4 md:p-8">
+    <div id="aside-position1" class="bg-gray-100 p-4 md:p-8">
+        <header class="text-2xl font-bold mb-4">AT2-Portfolio</header>
+
+        <div id="form-container" class="mb-8">
+            <form id="section-form" class="mb-4">
+                <label for="section-input" class="block mb-2">Fact Hunt</label>
+                <input type="text" id="section-input" placeholder="Number of facts" class="w-full p-2 border rounded-md">
+                <div class="flex justify-center mt-8">
+                    <button type="button" id="section-button" class="bg-orange-400 text-black px-4 py-2 rounded-md">Discover</button>
+                </div>
+            </form>
+
+            <p id="section-response" class="font-semi-bold text-2xl mb-4">Today's Scoop<span id="api-response" class="ml-2"></span></p>
+        </div>
     </div>
 
-    <div class="text-left font-serif mx-3">
-        <p class="font-bold text-3xl mt-8 xl:mt-0 xl:mb-6 xl:px-4 md:text-4xl md:mt-8 sm:text-3xl sm:mt-4">Asmita | IT Programmer</p>
-        <ul class="text-lg list-disc list-inside mt-4 xl:text-xl xl:p-5 xl:px-8 md:text-base md:mt-5 sm:text-base sm:mt-3">
-            <li class="mb-4">🚀 Dedicated IT Programmer with a passion for innovation and creative problem-solving.</li>
-            <li class="mb-4">👩‍💻 Actively seeking opportunities to contribute and make a meaningful impact in the tech community.</li>
-            <li class="mb-4">🛠 Skills:</li>
-            <ul class="list-disc list-inside ml-6">
-                <li>Web Development: Proficient in HTML, CSS, and JavaScript.</li>
-                <li>Server-Side Development: Experienced in Node.js for robust server-side applications.</li>
-                <li>Frontend Frameworks: Familiar with popular frameworks like React.js.</li>
-                <li>UI Design: Skilled in crafting responsive and visually appealing interfaces using Tailwind CSS.</li>
-                <li>Version Control: Proficient in Git for efficient collaboration and code management.</li>
-            </ul>
-            <li class="mb-4">🌐 Portfolio: https://github.com/bhandareasmita/portfolio</li><li class="mb-4">📚 Education:</li>
-            <ul class="list-disc list-inside ml-6">
-                <li>Cert-IV in IT Programming - 2023</li>
-            </ul>
-            <li>📧 Contact: bhandareasmita@gmail.com</li>
-        </ul>
-    </div>
+    <script src="./assets/js/project.js"></script>
 </main>
 
 <Footer class="bg-slate-600 xl:h-96 lg:h-80" >
