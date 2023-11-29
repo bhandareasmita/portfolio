@@ -16,29 +16,29 @@
     <div class="hidden sm:hidden sm:mb-5 w-full h-1.5 mt-16 my-4 sm:mt-3 sm:h-1 lg:mt-14 lg:h-1.5"></div>
 
     <div id="toggleButton" class="flex ml-auto mr-2 mt-2 sm:hidden lg:hidden bg-orange-400 text-white">
-        <button class="focus:outline-none mr-10">
+        <button class="focus:outline-none mr-2">
             <div class="w-8 h-1 bg-slate-600 mb-2"></div>
             <div class="w-8 h-1 bg-slate-600 mb-2"></div>
             <div class="w-8 h-1 bg-slate-600 mb-2"></div>
         </button>
     </div>
 
-    <ul id="desktopMenuItems" class="hidden sm:flex sm:text-xl font-bold sm:space-x-4 sm:mr-10 md:space-x-8 md:items-end md:mb-6 md:text-xl lg:text-2xl lg:flex space-x-10 flex-grow w-full justify-end">
-        <li><a href="index.html" class="hover:text-white">Home</a></li>
-        <li><a href="about.html" class="hover:text-white">About Me</a></li>
-        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
-        <li><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
-        <li><a href="resume.html" class="hover:text-white">Resume</a></li>
+    <ul id="desktopMenuItems" class="hidden pr-4 sm:flex sm:text-xl font-bold sm:space-x-4 sm:mr-10 md:space-x-8 md:items-end md:mb-6 md:text-xl lg:text-2xl lg:flex space-x-10 flex-grow w-full justify-end">
+        <li><a href="index.html" class="focus:text-white">Home</a></li>
+        <li><a href="about.html" class="focus:text-white">About Me</a></li>
+        <li><a href="contact.html" class="focus:text-white">Contact</a></li>
+        <li><a href="portfolio.html" class="focus:text-white">Portfolio</a></li>
+        <li><a href="resume.html" class="focus:text-white">Resume</a></li>
     </ul>
 
-
-    <ul id="mobileMenuItems" class="hidden bg-gray-100 sm:hidden md:hidden lg:hidden xl:hidden absolute top-0 right-8 mt-16 mr-5">
-        <li><a href="index.html" class="hover:text-white">Home</a></li>
-        <li><a href="about.html" class="hover:text-white">About Me</a></li>
-        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
-        <li><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
-        <li><a href="resume.html" class="hover:text-white">Resume</a></li>
+    <ul id="mobileMenuItems" class="hidden bg-slate-600 text-white sm:hidden md:hidden lg:hidden xl:hidden absolute top-0 right-0 mt-12 rounded-md">
+        <li class="mb-2 mx-4"><a href="index.html" class="hover:font-bold">Home</a></li>
+        <li class="mb-2 mx-4"><a href="about.html" class="hover:text-white">About Me</a></li>
+        <li class="mb-2 ml-4"><a href="contact.html" class="hover:text-white">Contact</a></li>
+        <li class="mb-2 ml-4"><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
+        <li class="mb-2 ml-4"><a href="resume.html" class="hover:text-white">Resume</a></li>
     </ul>
+
     <script src="./assets/js/script.js"></script>
 </header>
 
@@ -54,8 +54,8 @@
                     <button type="button" id="section-button" class="bg-orange-400 text-black px-4 py-2 rounded-md">Discover</button>
                 </div>
             </form>
-
-            <p id="section-response" class="font-semi-bold text-2xl mb-4">Today's Scoop<span id="api-response" class="ml-2"></span></p>
+            <p class="font-bold text-2xl mb-2 text-center">Today's Scoop</p>
+            <p id="section-response" class="text-xl"><span id="api-response" class="ml-2"></span></p>
         </div>
     </div>
 
